@@ -726,18 +726,42 @@
                 text-decoration: none;
             }
         }
+
+        h1{
+            font-size: 60px;
+            line-height: 75px;
+            margin-bottom: 55px;
+            font-weight: var(--site-primary-font-regular);
+        }
+
         h2{
             font-size: 50px;
             line-height: 65px;
             margin-bottom: 55px;
             font-weight: var(--site-primary-font-regular);
         }
+
         h3{
             font-size: 31px;
             line-height: 44px;
             font-weight: var(--site-primary-font-regular);
             margin-bottom: 55px;
         }
+
+        h4{
+            font-size: 28px;
+            line-height: 40px;
+            font-weight: var(--site-primary-font-regular);
+            margin-bottom: 55px;
+        }
+
+        h5{
+            font-size: 26px;
+            line-height: 36px;
+            font-weight: var(--site-primary-font-regular);
+            margin-bottom: 55px;
+        }
+
         h6{
             font-size: 25px;
             font-weight: var(--site-secondary-font-regular);

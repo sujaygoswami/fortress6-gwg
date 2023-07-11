@@ -9106,6 +9106,12 @@ html, body {
   .gwg-kassel .basic-entry a.link-no-decoration {
     text-decoration: none; }
 
+.gwg-kassel .basic-entry h1, .gwg-kassel .basic-entry .h1 {
+  font-size: 60px;
+  line-height: 75px;
+  margin-bottom: 55px;
+  font-weight: var(--site-primary-font-regular); }
+
 .gwg-kassel .basic-entry h2, .gwg-kassel .basic-entry .h2 {
   font-size: 50px;
   line-height: 65px;
@@ -9115,6 +9121,18 @@ html, body {
 .gwg-kassel .basic-entry h3, .gwg-kassel .basic-entry .h3 {
   font-size: 31px;
   line-height: 44px;
+  font-weight: var(--site-primary-font-regular);
+  margin-bottom: 55px; }
+
+.gwg-kassel .basic-entry h4, .gwg-kassel .basic-entry .h4 {
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: var(--site-primary-font-regular);
+  margin-bottom: 55px; }
+
+.gwg-kassel .basic-entry h5, .gwg-kassel .basic-entry .h5 {
+  font-size: 26px;
+  line-height: 36px;
   font-weight: var(--site-primary-font-regular);
   margin-bottom: 55px; }
 
@@ -10767,6 +10785,10 @@ html, body {
     .gwg-kassel .basic-entry li {
       font-size: 18px;
       line-height: 28px; }
+    .gwg-kassel .basic-entry h1, .gwg-kassel .basic-entry .h1 {
+      font-size: 34px;
+      line-height: 44px;
+      margin-bottom: 45px; }
     .gwg-kassel .basic-entry h2, .gwg-kassel .basic-entry .h2 {
       font-size: 26px;
       line-height: 34px;
@@ -10774,6 +10796,14 @@ html, body {
     .gwg-kassel .basic-entry h3, .gwg-kassel .basic-entry .h3 {
       font-size: 24px;
       line-height: 32px;
+      margin-bottom: 45px; }
+    .gwg-kassel .basic-entry h4, .gwg-kassel .basic-entry .h4 {
+      font-size: 20px;
+      line-height: 28px;
+      margin-bottom: 45px; }
+    .gwg-kassel .basic-entry h5, .gwg-kassel .basic-entry .h5 {
+      font-size: 18px;
+      line-height: 26px;
       margin-bottom: 45px; }
     .gwg-kassel .basic-entry h6, .gwg-kassel .basic-entry .h6 {
       font-size: 16px;
