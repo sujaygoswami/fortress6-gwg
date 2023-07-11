@@ -532,6 +532,19 @@ jQuery('.site-mobile-nav-trigger .trigger input').click(function(){
     
 });
 
+
+// responsive overlapped box site form
+jQuery('.responsive-overlapped-box-parent .overlaped-box .site-form-view-1').each(function(){
+  var COLWITHINFIRSTROW = jQuery(this).find('.col-within-first-row');
+  var COLWITHINSECONDROW = jQuery(this).find('.col-within-second-row');
+  var MAINPARENT = jQuery(this).find('.responsive-col-move-parent');
+
+  jQuery(COLWITHINSECONDROW).detach().appendTo(MAINPARENT);
+
+  jQuery(COLWITHINSECONDROW).wrapAll('<div class="row form-row tiny-grid element-gap element-gap-normal responsive-col-move-prev-row d-none d-xlg-flex"></div>');
+  
+});
+
 // responsive overlapped box parent
 jQuery('.responsive-overlapped-box-parent').each(function(){
 
