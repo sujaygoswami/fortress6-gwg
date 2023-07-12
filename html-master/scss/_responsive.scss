@@ -506,6 +506,9 @@
 
         // cover-image-box-conditional
         .cover-image-box-conditional{
+            &.set-back{
+                min-height: 420px;
+            }
             &.rounded-type-1{
                 &.responsive-cover{
                     border-radius: 0 0 20px 20px;
