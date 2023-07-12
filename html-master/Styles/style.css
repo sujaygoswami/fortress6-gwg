@@ -8686,6 +8686,9 @@ html, body {
 .gwg-kassel .realtive-parent {
   position: relative; }
 
+.gwg-kassel .row.row-gap-negative {
+  row-gap: 0px !important; }
+
 .gwg-kassel .row.default-grid:not(.no-row-gap) {
   row-gap: 50px; }
 

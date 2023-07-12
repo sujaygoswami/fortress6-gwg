@@ -296,7 +296,7 @@ jQuery('.product-detail-gallery .main-carousel').slick({
 
 // overlay image with text card gallery
 
-jQuery('.responsive-carousel-view.type1').each(function(){
+jQuery('.responsive-carousel-view:not(.responsive-carousel-view-negative).type1').each(function(){
   if ($(window).width() < 1200) {
   
     jQuery(this).find('> .row.default-grid').removeClass('row default-grid element-gap element-gap-normal global-isotop-grid isotop-xlg-only no-row-gap has-bottom-gap');
@@ -639,15 +639,45 @@ jQuery('.uberuns-graphics-content-module').each(function(){
 // load
 jQuery(window).load(function(){
 
+var siteLoad = {}
 
 
-// isotop xlg only
-if ($(window).width() >= 1200) {
-  jQuery('.global-isotop-grid.isotop-xlg-only').isotope({
-    // options
-    itemSelector: '.my-col'
-  });
-};
+
+
+siteLoad.GLOBALISOTOPXLGONLY = function() {
+  
+  // isotop xlg only
+  if ($(window).width() >= 1200) {
+    jQuery('.global-isotop-grid.isotop-xlg-only').isotope({
+      // options
+      itemSelector: '.my-col'
+    });
+  };
+      
+  
+}; 
+
+siteLoad.GLOBALISOTOPALLDEVICE = function() {
+  
+  // isotop all device
+
+    jQuery('.global-isotop-grid.isotop-all-device').isotope({
+      // options
+      itemSelector: '.my-col'
+    });
+
+      
+  
+}; 
+  
+
+
+
+
+setTimeout(function() {
+  siteLoad.GLOBALISOTOPXLGONLY();
+  siteLoad.GLOBALISOTOPALLDEVICE();
+}, 100);
 
 
 
@@ -665,10 +695,11 @@ if ($(window).width() >= 1200) {
   jQuery('.iconic-widget-module .the-icon').matchHeight();
   jQuery('.iconic-widget-module .the-context').matchHeight();
 
-  jQuery('.responsive-carousel-view.type1 .owl-item').matchHeight();
+  jQuery('.responsive-carousel-view:not(.responsive-carousel-view-negative).type1 .owl-item').matchHeight();
 
-
-  jQuery('.product-listing-module.responsive-carousel-view .product-title').matchHeight();
+  if ($(window).width() < 1200) {
+    jQuery('.product-listing-module.responsive-carousel-view:not(.responsive-carousel-view-negative) .product-title').matchHeight();
+  }
 
 
   jQuery('.upload-title').matchHeight();
@@ -679,17 +710,6 @@ if ($(window).width() >= 1200) {
 
 
 
-var siteLoad = {}
-
-
-
-
-siteLoad.CAPTIONSLIDERHEIGHT = function() {
-
-  
-    
-
-};   
 
 
 
