@@ -8911,7 +8911,12 @@ html, body {
   padding: 15px 30px;
   display: inline-block;
   text-decoration: none !important;
-  letter-spacing: 1.32px; }
+  letter-spacing: 1.32px;
+  margin-right: 15px;
+  margin-bottom: 15px; }
+  .gwg-kassel .site-btn-type-1:last-child {
+    margin-right: 0px;
+    margin-bottom: 0px; }
 
 .gwg-kassel .site-btn-type-2 {
   border: none;
@@ -8930,7 +8935,12 @@ html, body {
   background-position: right 25px center;
   text-decoration: none !important;
   -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s; }
+  transition: all 0.3s ease 0s;
+  margin-right: 15px;
+  margin-bottom: 15px; }
+  .gwg-kassel .site-btn-type-2:last-child {
+    margin-right: 0px;
+    margin-bottom: 0px; }
   .gwg-kassel .site-btn-type-2:hover {
     background-color: var(--site-primary-color); }
   .gwg-kassel .site-btn-type-2.icon-down-arrow {
@@ -9960,6 +9970,52 @@ html, body {
       color: var(--site-primary-color);
       opacity: 1; }
 
+.gwg-kassel .site-form-view-3 .custom-check-radio > div {
+  display: inline-block;
+  vertical-align: top; }
+
+.gwg-kassel .site-form-view-3 .custom-check-radio .check-radio-label {
+  max-width: 85%; }
+  .gwg-kassel .site-form-view-3 .custom-check-radio .check-radio-label label {
+    font-size: 22px;
+    line-height: normal;
+    padding-left: 5px;
+    cursor: pointer; }
+
+.gwg-kassel .site-form-view-3 .custom-check-radio .check-radio {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--site-primary-color);
+  border-radius: 3px;
+  overflow: hidden;
+  top: 4px; }
+  .gwg-kassel .site-form-view-3 .custom-check-radio .check-radio.radio {
+    border-radius: 100%; }
+  .gwg-kassel .site-form-view-3 .custom-check-radio .check-radio input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    z-index: 1;
+    opacity: 0;
+    cursor: pointer; }
+    .gwg-kassel .site-form-view-3 .custom-check-radio .check-radio input:checked + .clone {
+      background-color: var(--site-primary-color);
+      background-image: url(../Images/check-white.svg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 13px; }
+  .gwg-kassel .site-form-view-3 .custom-check-radio .check-radio .clone {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    pointer-events: none; }
+
 .gwg-kassel .site-form-view-3 .form-part.width-type-1 {
   max-width: 800px; }
 
@@ -9969,6 +10025,28 @@ html, body {
   border-radius: 7px;
   background-color: var(--site-light-bg-type-1);
   margin-bottom: 40px; }
+  .gwg-kassel .site-form-view-3 .field-holder:not(.custom-select-field).field-holder-normal {
+    height: auto;
+    background-color: transparent;
+    border-radius: 0px; }
+  .gwg-kassel .site-form-view-3 .field-holder:not(.custom-select-field).field-holder-textarea {
+    height: 200px; }
+  .gwg-kassel .site-form-view-3 .field-holder:not(.custom-select-field).field-holder-select {
+    position: relative; }
+    .gwg-kassel .site-form-view-3 .field-holder:not(.custom-select-field).field-holder-select:after {
+      width: 60px;
+      height: 100%;
+      pointer-events: none;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      content: ' ';
+      display: block;
+      z-index: 1;
+      background-image: url(../Images/down-direction-arrow-primary.svg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 30px; }
 
 .gwg-kassel .site-form-view-3 .field-holder.bottom-gap-lg {
   margin-bottom: 80px; }
@@ -9987,6 +10065,12 @@ html, body {
   .gwg-kassel .site-form-view-3 .field-control::placeholder {
     opacity: 1;
     color: var(--site-primary-color); }
+  .gwg-kassel .site-form-view-3 .field-control.field-control-textarea {
+    padding: 20px;
+    resize: none; }
+  .gwg-kassel .site-form-view-3 .field-control.field-control-select {
+    padding-right: 80px;
+    cursor: pointer; }
 
 .gwg-kassel .news-listing-module.related .news-main-title {
   margin-bottom: 10px; }
@@ -10702,14 +10786,34 @@ html, body {
           line-height: normal;
           padding: 0 20px;
           font-weight: var(--site-primary-font-regular); }
+    .gwg-kassel .site-form-view-3 .form-part.width-type-1 {
+      max-width: inherit; }
+    .gwg-kassel .site-form-view-3 .basic-entry p {
+      font-size: 14px;
+      line-height: normal; }
+    .gwg-kassel .site-form-view-3 .custom-check-radio .check-radio {
+      width: 15px;
+      height: 15px;
+      top: 3px; }
+      .gwg-kassel .site-form-view-3 .custom-check-radio .check-radio input:checked + .clone {
+        background-size: 10px; }
+    .gwg-kassel .site-form-view-3 .custom-check-radio .check-radio-label label {
+      font-size: 14px; }
     .gwg-kassel .site-form-view-3 .field-holder:not(.custom-select-field) {
       height: 40px;
       margin-bottom: 14px; }
+      .gwg-kassel .site-form-view-3 .field-holder:not(.custom-select-field).field-holder-select:after {
+        background-size: 20px;
+        width: 40px; }
     .gwg-kassel .site-form-view-3 .field-holder.bottom-gap-lg {
       margin-bottom: 60px; }
     .gwg-kassel .site-form-view-3 .field-control {
       font-size: 14px;
       padding: 0 10px; }
+      .gwg-kassel .site-form-view-3 .field-control.field-control-select {
+        padding-right: 50px; }
+      .gwg-kassel .site-form-view-3 .field-control.field-control-textarea {
+        padding: 10px; }
     .gwg-kassel .custom-select-field {
       text-align: center; }
       .gwg-kassel .custom-select-field .site-custom-ui-select {

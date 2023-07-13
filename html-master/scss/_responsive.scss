@@ -351,9 +351,43 @@
             }
         }
         .site-form-view-3{
+            .form-part{
+                &.width-type-1{
+                    max-width: inherit;
+                }
+            }
+            .basic-entry{
+                p{
+                    font-size: 14px;
+                    line-height: normal;
+                }
+            }
+            .custom-check-radio{
+                .check-radio{
+                    width: 15px;
+                    height: 15px;
+                    top: 3px;
+
+                    input:checked + .clone{
+                        background-size: 10px;
+                    }
+                }
+                .check-radio-label{
+                    label{
+                        font-size: 14px;
+                    }
+                }
+            }
             .field-holder:not(.custom-select-field){
                 height: 40px;
                 margin-bottom: 14px;
+
+                &.field-holder-select{
+                    &:after{
+                        background-size: 20px;
+                        width: 40px;
+                    }
+                }
             }
 
             .field-holder{
@@ -365,6 +399,14 @@
             .field-control{
                 font-size: 14px;
                 padding: 0 10px;
+
+                &.field-control-select{
+                    padding-right: 50px;
+                }
+
+                &.field-control-textarea{
+                    padding: 10px;
+                }
             }
         }
 

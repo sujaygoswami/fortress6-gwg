@@ -625,6 +625,17 @@ jQuery('.uberuns-graphics-content-module').each(function(){
 });
 
 
+// product-detail-with-form-module
+jQuery('.product-detail-with-form-module').each(function(){
+  var FORMCOL = jQuery(this).find('.form-col');
+  var PRODUCTCOL = jQuery(this).find('.product-col');
+
+  if ($(window).width() < 1200) {
+    jQuery(FORMCOL).detach().insertAfter(PRODUCTCOL);
+  }
+});
+
+
 
 
 });
