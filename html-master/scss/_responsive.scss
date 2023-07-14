@@ -43,7 +43,8 @@
 
         .site-btn-type-2{
             font-size: 16px;
-            padding: 10px 30px;
+            padding: 10px 25px;
+            letter-spacing: 0.96px;
 
             &.icon-left-direction-arrow{
                 background-size: 10px;
@@ -622,6 +623,10 @@
                 font-size: 18px;
                 line-height: 28px;
             }
+
+            div.reveal-para{
+                margin-bottom: 20px;
+            }
         }
 
 
@@ -688,8 +693,8 @@
             }
 
             &.type-two{
-                height: 125px;
-                bottom: -55px;
+                height: 165px;
+                bottom: -80px;
             }
         }
         .skew-view-2-primary-content{

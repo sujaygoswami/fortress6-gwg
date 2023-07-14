@@ -798,6 +798,13 @@
             line-height: 36px;
             margin-bottom: 45px;
         }
+
+        div.reveal-para{
+            margin-bottom: 45px;
+            &:last-child{
+                margin-bottom: 0px !important;
+            }
+        }
     }
 
 
@@ -2925,6 +2932,39 @@
 
     .bs-tooltip-start .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^="left"] .tooltip-arrow::before{
         border-left-color: #eeeff5;
+    }
+
+
+
+    // typo3-messages
+    .typo3-messages{
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+
+        li{
+
+            &:before{
+                font-family: 'FontAwesome';
+                content: "\f071";
+                position: absolute;
+                left: 10px;
+            }
+
+            &.alert{
+                padding: 10px 15px 10px 35px;
+                position: relative;
+                display: inline-block;
+            }
+            .alert-title{
+                font-size: 16px;
+                margin-bottom: 0px;
+            }
+
+            .alert-message{
+                font-size: 14px;
+            }
+        }
     }
 
 

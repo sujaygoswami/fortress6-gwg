@@ -9162,6 +9162,11 @@ html, body {
   line-height: 36px;
   margin-bottom: 45px; }
 
+.gwg-kassel .basic-entry div.reveal-para {
+  margin-bottom: 45px; }
+  .gwg-kassel .basic-entry div.reveal-para:last-child {
+    margin-bottom: 0px !important; }
+
 .gwg-kassel .image-with-overlay-text-carousel .slick-list {
   overflow: inherit; }
 
@@ -10570,6 +10575,25 @@ html, body {
 .gwg-kassel .bs-tooltip-start .tooltip-arrow::before, .gwg-kassel .bs-tooltip-auto[data-popper-placement^="left"] .tooltip-arrow::before, .gwg-kassel .bs-tooltip-auto[data-popper-placement^="left"] .tooltip-arrow::before {
   border-left-color: #eeeff5; }
 
+.gwg-kassel .typo3-messages {
+  list-style: none;
+  margin: 0px;
+  padding: 0px; }
+  .gwg-kassel .typo3-messages li:before {
+    font-family: 'FontAwesome';
+    content: "\f071";
+    position: absolute;
+    left: 10px; }
+  .gwg-kassel .typo3-messages li.alert {
+    padding: 10px 15px 10px 35px;
+    position: relative;
+    display: inline-block; }
+  .gwg-kassel .typo3-messages li .alert-title {
+    font-size: 16px;
+    margin-bottom: 0px; }
+  .gwg-kassel .typo3-messages li .alert-message {
+    font-size: 14px; }
+
 .gwg-kassel footer.footer {
   background-image: url(../Images/footer-bg.png);
   background-repeat: no-repeat;
@@ -10633,7 +10657,8 @@ html, body {
       padding-right: 0px; }
     .gwg-kassel .site-btn-type-2 {
       font-size: 16px;
-      padding: 10px 30px; }
+      padding: 10px 25px;
+      letter-spacing: 0.96px; }
       .gwg-kassel .site-btn-type-2.icon-left-direction-arrow {
         background-size: 10px; }
       .gwg-kassel .site-btn-type-2.icon-right-direction-arrow {
@@ -10921,6 +10946,8 @@ html, body {
       margin-bottom: 20px;
       font-size: 18px;
       line-height: 28px; }
+    .gwg-kassel .basic-entry div.reveal-para {
+      margin-bottom: 20px; }
     .gwg-kassel .job-listing-module .the-list-item {
       font-size: 14px;
       line-height: 22px;
@@ -10955,8 +10982,8 @@ html, body {
         padding-top: 80px;
         margin-top: 0px; }
       .gwg-kassel .the-skew-view-part.type-two {
-        height: 125px;
-        bottom: -55px; }
+        height: 165px;
+        bottom: -80px; }
     .gwg-kassel .skew-view-2-primary-content {
       padding: 55px 0; }
     .gwg-kassel .skew-view-2-secondary-floating-content {
@@ -13715,8 +13742,8 @@ Copyright (c) 2015 Daniel Eden
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("../fonts/fontawesome-webfont.eot?v=4.4.0");
-  src: url("fonts/fontawesome-webfont.eot?#iefix&v=4.4.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.4.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.4.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.4.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular") format("svg");
+  src: url("../Fonts/fontawesome-webfont.eot?v=4.4.0");
+  src: url("../Fonts/fontawesome-webfont.eot?#iefix&v=4.4.0") format("embedded-opentype"), url("../Fonts/fontawesome-webfont.woff2?v=4.4.0") format("woff2"), url("../Fonts/fontawesome-webfont.woff?v=4.4.0") format("woff"), url("../Fonts/fontawesome-webfont.ttf?v=4.4.0") format("truetype"), url("../Fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
