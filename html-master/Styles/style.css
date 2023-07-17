@@ -10575,6 +10575,9 @@ html, body {
 .gwg-kassel .bs-tooltip-start .tooltip-arrow::before, .gwg-kassel .bs-tooltip-auto[data-popper-placement^="left"] .tooltip-arrow::before, .gwg-kassel .bs-tooltip-auto[data-popper-placement^="left"] .tooltip-arrow::before {
   border-left-color: #eeeff5; }
 
+.gwg-kassel .bs-tooltip-top .tooltip-arrow::before, .gwg-kassel .bs-tooltip-auto[data-popper-placement^="top"] .tooltip-arrow::before, .gwg-kassel .bs-tooltip-auto[data-popper-placement^="top"] .tooltip-arrow::before {
+  border-top-color: #eeeff5; }
+
 .gwg-kassel .typo3-messages {
   list-style: none;
   margin: 0px;

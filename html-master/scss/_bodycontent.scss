@@ -2934,6 +2934,10 @@
         border-left-color: #eeeff5;
     }
 
+    .bs-tooltip-top .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^="top"] .tooltip-arrow::before{
+        border-top-color: #eeeff5;
+    }
+
 
 
     // typo3-messages
