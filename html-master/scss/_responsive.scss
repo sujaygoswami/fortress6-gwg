@@ -732,9 +732,16 @@
         }
 
 
+
+
         // interactive-map-main-svg
         .interactive-map-main-svg{
             height: auto;
+
+            .map-activity-area{
+                pointer-events: none !important;
+            }
+            
         }
 
         .tooltip-inner{

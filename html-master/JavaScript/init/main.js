@@ -470,6 +470,7 @@ jQuery('.dropdown-filter-module').each(function(){
 
 
 // search-map-module
+if ($(window).width() >= 1200) {
 jQuery('.search-map-module .interactive-map-main-svg .map-activity-area').click(function(e){
   var DATAMAPPRIMARYINFO1 = jQuery(this).attr('data-map-primary-info-1');
   var DATAMAPPRIMARYINFO2 = jQuery(this).attr('data-map-primary-info-2');
@@ -498,7 +499,7 @@ jQuery('.search-map-module .interactive-map-main-svg .map-activity-area').click(
 
 jQuery('.search-map-module .interactive-map-main-svg path.first-info-to-show').trigger('click');
 jQuery('.search-map-module .interactive-map-main-svg path.first-info-to-show').focus();
-
+}
 
 
 // multi class buttons

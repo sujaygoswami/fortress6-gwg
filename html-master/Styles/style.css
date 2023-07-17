@@ -11007,6 +11007,8 @@ html, body {
           max-width: 80px; }
     .gwg-kassel .interactive-map-main-svg {
       height: auto; }
+      .gwg-kassel .interactive-map-main-svg .map-activity-area {
+        pointer-events: none !important; }
     .gwg-kassel .tooltip-inner {
       font-size: 12px;
       padding: 5px; }
