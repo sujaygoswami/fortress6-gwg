@@ -2107,6 +2107,11 @@
             border-radius: 7px;
             background-color: var(--site-light-bg-type-1);
             margin-bottom: 40px;
+            border: 2px solid transparent;
+
+            &.has-danger, &.error{
+                border-color: var(--site-danger-light-border);
+            }
 
             &.field-holder-normal{
                 height: auto;
@@ -2788,6 +2793,10 @@
                 background-size: 22px;
                 background-image: url(../Images/plus.svg);
                 cursor: pointer;
+
+                span{
+                    pointer-events: none;
+                }
 
                 input{
                     position: absolute;

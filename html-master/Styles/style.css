@@ -8394,7 +8394,10 @@ textarea.form-control-lg {
   --site-colored-border-1: #878CB7;
   --site-colored-border-2: #C8CBDF;
   --site-light-color-1: #9297C0;
-  --site-light-color-2: #eeeff5; }
+  --site-light-color-2: #eeeff5;
+  --site-danger-dark: #842029;
+  --site-danger-light-bg: #f8d7da;
+  --site-danger-light-border: #f5c2c7; }
 
 @font-face {
   font-family: 'Inter';
@@ -10029,7 +10032,10 @@ html, body {
   overflow: hidden;
   border-radius: 7px;
   background-color: var(--site-light-bg-type-1);
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  border: 2px solid transparent; }
+  .gwg-kassel .site-form-view-3 .field-holder:not(.custom-select-field).has-danger, .gwg-kassel .site-form-view-3 .field-holder:not(.custom-select-field).error {
+    border-color: var(--site-danger-light-border); }
   .gwg-kassel .site-form-view-3 .field-holder:not(.custom-select-field).field-holder-normal {
     height: auto;
     background-color: transparent;
@@ -10496,6 +10502,8 @@ html, body {
   background-size: 22px;
   background-image: url(../Images/plus.svg);
   cursor: pointer; }
+  .gwg-kassel .form-upload-module .upload-buttons .custom-input-file span {
+    pointer-events: none; }
   .gwg-kassel .form-upload-module .upload-buttons .custom-input-file input {
     position: absolute;
     width: 100%;
