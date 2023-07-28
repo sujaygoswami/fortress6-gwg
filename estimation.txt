@@ -1,0 +1,431 @@
+Desktop
+==============
+
+design: 24
+
+==> 16 hrs (home page, header footer, grid, basic environment setup, var setup)
+
+
+design: 25
+
+==> 4hrs
+
+
+design: 26
+
+==> 4hrs
+
+
+design: 27
+
+==> 3hrs
+
+
+design: 28, 29
+
+==> 4hrs
+
+
+design: 30
+
+==> 2hrs
+
+
+design: 31
+
+==> 4hrs
+
+
+design: 32
+
+==> 2hrs
+
+
+design: 33
+
+==> 3hrs
+
+
+design: 34
+
+==> 4hrs
+
+
+design: 35
+
+==> 3hrs
+
+
+design: 36
+
+==> 1hr
+
+
+design: 37
+
+==> 4hrs
+
+
+design: 38
+
+==> 2hrs
+
+
+design: 39
+
+==> 1hr
+
+
+design: 40,41,42
+
+==> 8hrs
+
+
+design: 43,44,45
+
+==> is the chat room coming from any third party plugin or own html and integration
+
+
+query
+=======
+
+1) what will happen if we click on phone, chat and messege icon placed on the right side of the page as fixed postion
+
+2) how to show the uploaded file in page 40
+
+
+
+total desktop hrs: 65hrs + chat room + page right side fixed icon function
+
+
+
+
+responsive
+=====
+
+tab, small desktop (self adjustment)
+
+mobile (design)
+
+est: 40hrs
+
+
+
+
+
+
+
+
+open layer link
+
+https://xd.adobe.com/view/74c485c8-ab7f-482c-8679-5168fada3f2a-2197/screen/4335af0e-a177-4a5d-b725-2f3b098941d4/
+
+
+
+
+new changes
+
+fixed header (done)
+
+accordin multi open (done)
+
+go to top(done)
+
+slider arrow (done)
+
+
+--------
+
+special element pending
+========================================
+
+home page top element (Done)
+
+page 37 batch (Done)
+
+page 25 curve element (Done)
+
+page 29 filter active class html append (Done)
+
+page 33 group (Done)
+
+page 7 html filter (Done)
+
+map (Done)
+
+
+
+
+needed for GWG
+--------
+1) page 40 and 42 right side image with shadow
+
+2) page 37 badge with grouped elements within it
+
+3) site logo with right font
+
+4) page 29 right side image with shadow
+
+5) please make clear the function of upload buttons in page 40 if any further discussion done
+
+   a) single upload?
+   b) will the uploaded file name displayed within the box in the place of plus sign after select the file
+   c) if multi upload how the file name will show
+   d) no add more button so two uploads max for each group right?
+
+
+
+
+
+============================
+RESPONSIVE STATUS
+============================
+
+1) index.html
+
+large desktop: done
+normal desktop: done
+tab: done
+mobile: done
+
+---------------------------------
+
+2) page2.html
+
+large desktop: done
+normal desktop: done
+tab: done
+mobile: done
+
+---------------------------------
+
+3) page3.html
+
+large desktop: done
+normal desktop: done
+tab: done
+mobile: done
+
+---------------------------------
+
+3) page4.html
+
+large desktop: done
+normal desktop: done
+tab: done
+mobile: done
+
+---------------------------------
+
+4) page5.html
+
+large desktop: done
+normal desktop: done
+tab: done
+mobile: done
+
+---------------------------------
+
+5) page6.html
+
+large desktop: done
+normal desktop: done
+tab: done
+mobile: done
+
+---------------------------------
+
+6) page7.html
+
+large desktop: done
+normal desktop: done
+tab: done
+mobile: done
+
+---------------------------------
+
+7) page8.html
+
+large desktop: done
+normal desktop: done
+tab: done
+mobile: done
+
+---------------------------------
+
+8) page9.html
+
+large desktop: done
+normal desktop: done
+tab: done
+mobile: done
+
+---------------------------------
+
+9) page10.html
+
+large desktop: done
+normal desktop: done
+tab: done
+mobile: done
+
+---------------------------------
+
+10) page11.html
+
+large desktop: done
+normal desktop: done
+tab: done
+mobile: done
+
+
+---------------------------------
+
+11) page12.html
+
+large desktop: done
+normal desktop: done
+tab: done
+mobile: done
+
+---------------------------------
+
+12) page13.html
+
+large desktop: done
+normal desktop: done
+tab: done
+mobile: done
+
+---------------------------------
+
+13) page14.html
+
+large desktop: done
+normal desktop: done
+tab: done
+mobile: done
+
+---------------------------------
+
+14) page15.html
+
+large desktop: done
+normal desktop: done
+tab: done
+mobile: done
+
+---------------------------------
+
+15) page16.html
+
+large desktop: done
+normal desktop: done
+tab: done
+mobile: done
+
+---------------------------------
+
+16) page17.html
+
+large desktop: done
+normal desktop: done
+tab: done
+mobile: done
+
+---------------------------------
+
+17) page18.html
+
+large desktop: done
+normal desktop: done
+tab: done
+mobile: done
+
+---------------------------------
+
+18) page19.html
+
+large desktop: done
+normal desktop: done
+tab: done
+mobile: done
+
+
+
+
+
+
+
+
+
+
+Integration label changes
+========
+
+1) streached map (done)
+2) different slider icon in 34 and 36 (done)
+
+
+
+
+
+development-testing
+===================================
+
+global
+===
+header footer tested ok
+
+1)http://typo3-composer.p645654.webspaceconfig.de/
+
+## tested ok
+
+2)http://typo3-composer.p645654.webspaceconfig.de/wohnungssuche
+## tested ok
+
+
+3)http://typo3-composer.p645654.webspaceconfig.de/wohnungssuche/quartiere
+## tested ok
+
+
+4)http://typo3-composer.p645654.webspaceconfig.de/kundenservice/ansprechpartner
+## tested ok
+
+
+5)http://typo3-composer.p645654.webspaceconfig.de/aktuelles
+## tested ok
+
+
+6)http://typo3-composer.p645654.webspaceconfig.de/aktuelles/details/gesund-wohnen
+## tested ok
+
+
+7)http://typo3-composer.p645654.webspaceconfig.de/aktuelles/gwg-meldungen
+## tested ok
+
+
+8)http://typo3-composer.p645654.webspaceconfig.de/ueber-uns
+## tested ok
+
+
+9)http://typo3-composer.p645654.webspaceconfig.de/ueber-uns/gwg-in-kassel
+## tested ok
+
+10)http://typo3-composer.p645654.webspaceconfig.de/ueber-uns/unsere-partner
+## tested ok
+
+11)http://typo3-composer.p645654.webspaceconfig.de/karriere/ausbildung
+## tested ok 
+
+12) http://typo3-composer.p645654.webspaceconfig.de/kundenservice
+## tested ok 
+
+13) http://typo3-composer.p645654.webspaceconfig.de/karriere
+## tested ok 
+
+14) http://typo3-composer.p645654.webspaceconfig.de/karriere/stellenbeschreibung?tx_gwgjobs_jdetails%5Buid%5D=1&cHash=86ba0cb46597d469ca5cbc5643c76d44
+##
+
+15) http://typo3-composer.p645654.webspaceconfig.de/karriere/online-bewerben?tx_gwgjobs_jform%5Buid%5D=1&cHash=2d7490c0a9a103e773e2bbb96ea76afe
+##  
