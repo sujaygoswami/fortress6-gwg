@@ -425,7 +425,17 @@ header footer tested ok
 ## tested ok 
 
 14) http://typo3-composer.p645654.webspaceconfig.de/karriere/stellenbeschreibung?tx_gwgjobs_jdetails%5Buid%5D=1&cHash=86ba0cb46597d469ca5cbc5643c76d44
-##
+## tested ok
 
 15) http://typo3-composer.p645654.webspaceconfig.de/karriere/online-bewerben?tx_gwgjobs_jform%5Buid%5D=1&cHash=2d7490c0a9a103e773e2bbb96ea76afe
-##  
+##  all forms tested ok
+
+16) http://typo3-composer.p645654.webspaceconfig.de/kundenservice/faq
+## tested ok
+
+17) http://typo3-composer.p645654.webspaceconfig.de/wohnungssuche/details/2-zkb-in-ruhiger-lage
+## tested ok
+
+18) http://typo3-composer.p645654.webspaceconfig.de/wohnungssuche/request/2-zkb-in-ruhiger-lage
+## tested ok
+
