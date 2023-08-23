@@ -2,10 +2,17 @@
 
 	footer.footer{
        
-        background-image: url(../Images/footer-bg.png);
+        background-image: url(../Images/footer-bg.svg);
         background-repeat: no-repeat;
         background-position: right top;
         background-size: cover;
+
+        &.footer-visible{
+            .go-top{
+                background-color: white;
+                background-image: url(../Images/up-direction-arrow-primary.svg);
+            }
+        }
 
         .normal-table{
             width: auto;
@@ -25,7 +32,7 @@
         }
 
         & > .main-wrap{
-            padding-top: 450px;
+            padding-top: 24vw;
         }
 
 
