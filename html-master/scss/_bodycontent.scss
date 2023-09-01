@@ -696,6 +696,8 @@
     .iconic-group-text{
         position: relative;
         padding-left: 100px;
+        word-wrap: initial;
+        padding-top: 5px;
 
         .the-icon{
             position: absolute;
@@ -851,7 +853,7 @@
 
         .iconic-group-text{
             h6{
-                margin-bottom: 0px;
+                margin-bottom: 5px;
             }
         }
 
@@ -901,14 +903,14 @@
                     vertical-align: middle;
 
                     &.slick-active{
-                        button{
+                        .pagi{
                             color: white;
                             background-color: var(--site-primary-color);
                         }
                     }
                 }
 
-                button{
+                .pagi{
                     width: 30px;
                     height: 30px;
                     border-radius: 5px;
@@ -922,6 +924,7 @@
                     background-color: var(--site-primary-color-light-3);
                     color: var(--site-primary-color);
                     @include transition(all 0.3s ease 0s);
+                    display: inline-block;
 
                     &:hover{
                         background-color: var(--site-secondary-color);
@@ -1527,6 +1530,7 @@
             text-transform: uppercase;
             margin-top: 15px;
             padding-right: 50px;
+            word-wrap: initial;
         }
 
         .multi-info{
@@ -1831,9 +1835,9 @@
                 display: inline-block;
                 vertical-align: middle;
                 font-size: 0px;
-                width: 10px;
-                height: 23px;
-                background-size: 10px !important;
+                width: 13px;
+                height: 30px;
+                background-size: 13px !important;
                 background-repeat: no-repeat !important;
                 background-position: left top !important;
                 cursor: pointer;
@@ -1861,7 +1865,7 @@
         .owl-dots{
             text-align: center;
             display: inline-block;
-            padding: 0 15px;
+            padding: 0 13px;
 
             button{
                 display: inline-block;
@@ -1869,15 +1873,21 @@
                 border: none;
                 width: 30px;
                 height: 30px;
-                border-radius: 3px;
+                border-radius: 5px;
                 background-color: var(--site-colored-border-2);
-                margin: 0 15px;
+                margin: 0 13px;
                 cursor: pointer;
-                font-size: 16px;
+                font-size: 25px;
                 font-family: var(--site-secondary-font);
                 font-weight: var(--site-secondary-font-regular);
                 line-height: 30px;
                 color: var(--site-primary-color);
+
+                &:hover{
+                    background-color: var(--site-secondary-color);
+                    color: white;
+                    @include transition(all 0.3s ease 0s);
+                }
 
                 span{
                     display: block;
@@ -2413,6 +2423,9 @@
         box-shadow: 3px 3px 10px #00000029;
         display: none;
         @include transition(all 0.3s ease 0s);
+        &:hover{
+            background-color: var(--site-secondary-color) !important;
+        }
         &.fadeOutDown{
             pointer-events: none;
         }
@@ -3106,6 +3119,16 @@
     // start-page-skew-content-module-view-wrap
 
 
+    .chat-bot-alt-content{
+        max-width: 90%;
+
+        @media screen and (max-width: ($xxl - 1px)){
+            max-width: inherit;
+            padding-top: 55px;
+            padding-bottom: 25px;
+        }
+    }
+
     .start-page-skew-content-module{
         padding: 100px 0 140px 0;
         min-height: 965px;
@@ -3113,6 +3136,69 @@
         background-repeat: no-repeat;
         background-position: left bottom;
         background-size: cover;
+
+        
+
+        &.chat-bot-alt-view{
+            @media screen and (max-width: ($xxl - 1px)){
+                background-image: none;
+                position: relative;
+                min-height: inherit;
+                padding-top: 60px;
+                padding-bottom: 40px;
+                overflow: hidden;
+                min-height: 90vw;
+
+                .responsive-skew-banner{
+                    transform: matrix(0.98, -0.19, 0.19, 0.98, 0, 0);
+                    transform-origin: left top;
+                    border-radius: 0 0 0 35px;
+                    width: 115vw;
+                    height: 100%;
+                    left: -15vw;
+                    top: 0px;
+                    position: absolute;
+                    background-repeat: no-repeat;
+                    background-position: left top;
+                    background-size: cover;
+                    overflow: hidden;
+
+                    &:before{
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        left: 0px;
+                        top: 0px;
+                        content: ' ';
+                        display: block;
+                        background-color: rgba($color: #253081, $alpha: 0.65);
+                    }
+                    
+                }
+
+                &:after{
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    left: 0px;
+                    top: 0px;
+                    display: block;
+                    content: ' ';
+                    background-image: url(../Images/skew-header-image-bg.svg);
+                    background-repeat: no-repeat;
+                    background-position: left top;
+                    z-index: -1;
+                    background-size: cover;
+                }
+
+                
+               
+            }
+
+            @media screen and (max-width: ($md - 1px)){
+                min-height: 485px;
+            }
+        }
 
         .start-push-left-type-1{
             .normal-text-element-module{

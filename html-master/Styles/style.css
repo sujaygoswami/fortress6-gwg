@@ -9109,7 +9109,9 @@ html, body {
 
 .gwg-kassel .iconic-group-text {
   position: relative;
-  padding-left: 100px; }
+  padding-left: 100px;
+  word-wrap: initial;
+  padding-top: 5px; }
   .gwg-kassel .iconic-group-text .the-icon {
     position: absolute;
     left: 0px;
@@ -9217,7 +9219,7 @@ html, body {
   text-transform: uppercase; }
 
 .gwg-kassel .basic-entry .iconic-group-text h6, .gwg-kassel .basic-entry .iconic-group-text .h6 {
-  margin-bottom: 0px; }
+  margin-bottom: 5px; }
 
 .gwg-kassel .basic-entry p {
   font-size: 22px;
@@ -9251,10 +9253,10 @@ html, body {
       padding: 0px;
       display: inline-block;
       vertical-align: middle; }
-      .gwg-kassel .image-with-overlay-text-carousel .slick-nav ul li.slick-active button, .gwg-kassel .image-with-overlay-text-carousel .slick-nav-responsive ul li.slick-active button {
+      .gwg-kassel .image-with-overlay-text-carousel .slick-nav ul li.slick-active .pagi, .gwg-kassel .image-with-overlay-text-carousel .slick-nav-responsive ul li.slick-active .pagi {
         color: white;
         background-color: var(--site-primary-color); }
-    .gwg-kassel .image-with-overlay-text-carousel .slick-nav ul button, .gwg-kassel .image-with-overlay-text-carousel .slick-nav-responsive ul button {
+    .gwg-kassel .image-with-overlay-text-carousel .slick-nav ul .pagi, .gwg-kassel .image-with-overlay-text-carousel .slick-nav-responsive ul .pagi {
       width: 30px;
       height: 30px;
       border-radius: 5px;
@@ -9268,8 +9270,9 @@ html, body {
       background-color: var(--site-primary-color-light-3);
       color: var(--site-primary-color);
       -webkit-transition: all 0.3s ease 0s;
-      transition: all 0.3s ease 0s; }
-      .gwg-kassel .image-with-overlay-text-carousel .slick-nav ul button:hover, .gwg-kassel .image-with-overlay-text-carousel .slick-nav-responsive ul button:hover {
+      transition: all 0.3s ease 0s;
+      display: inline-block; }
+      .gwg-kassel .image-with-overlay-text-carousel .slick-nav ul .pagi:hover, .gwg-kassel .image-with-overlay-text-carousel .slick-nav-responsive ul .pagi:hover {
         background-color: var(--site-secondary-color);
         color: white; }
   .gwg-kassel .image-with-overlay-text-carousel .slick-nav .slick-arrow, .gwg-kassel .image-with-overlay-text-carousel .slick-nav-responsive .slick-arrow {
@@ -9661,7 +9664,8 @@ html, body {
   color: var(--site-light-color-1);
   text-transform: uppercase;
   margin-top: 15px;
-  padding-right: 50px; }
+  padding-right: 50px;
+  word-wrap: initial; }
 
 .gwg-kassel .product-listing-module .multi-info {
   font-size: 22px;
@@ -9851,9 +9855,9 @@ html, body {
     display: inline-block;
     vertical-align: middle;
     font-size: 0px;
-    width: 10px;
-    height: 23px;
-    background-size: 10px !important;
+    width: 13px;
+    height: 30px;
+    background-size: 13px !important;
     background-repeat: no-repeat !important;
     background-position: left top !important;
     cursor: pointer;
@@ -9873,22 +9877,27 @@ html, body {
 .gwg-kassel .global-owl-carousel .owl-dots {
   text-align: center;
   display: inline-block;
-  padding: 0 15px; }
+  padding: 0 13px; }
   .gwg-kassel .global-owl-carousel .owl-dots button {
     display: inline-block;
     vertical-align: middle;
     border: none;
     width: 30px;
     height: 30px;
-    border-radius: 3px;
+    border-radius: 5px;
     background-color: var(--site-colored-border-2);
-    margin: 0 15px;
+    margin: 0 13px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 25px;
     font-family: var(--site-secondary-font);
     font-weight: var(--site-secondary-font-regular);
     line-height: 30px;
     color: var(--site-primary-color); }
+    .gwg-kassel .global-owl-carousel .owl-dots button:hover {
+      background-color: var(--site-secondary-color);
+      color: white;
+      -webkit-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s; }
     .gwg-kassel .global-owl-carousel .owl-dots button span {
       display: block; }
     .gwg-kassel .global-owl-carousel .owl-dots button.active {
@@ -10248,6 +10257,8 @@ html, body {
   display: none;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; }
+  .gwg-kassel .go-top:hover {
+    background-color: var(--site-secondary-color) !important; }
   .gwg-kassel .go-top.fadeOutDown {
     pointer-events: none; }
 
@@ -10701,6 +10712,14 @@ html, body {
         top: 32px;
         display: none; } }
 
+.gwg-kassel .chat-bot-alt-content {
+  max-width: 90%; }
+  @media screen and (max-width: 1799px) {
+    .gwg-kassel .chat-bot-alt-content {
+      max-width: inherit;
+      padding-top: 55px;
+      padding-bottom: 25px; } }
+
 .gwg-kassel .start-page-skew-content-module {
   padding: 100px 0 140px 0;
   min-height: 965px;
@@ -10708,6 +10727,53 @@ html, body {
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: cover; }
+  @media screen and (max-width: 1799px) {
+    .gwg-kassel .start-page-skew-content-module.chat-bot-alt-view {
+      background-image: none;
+      position: relative;
+      min-height: inherit;
+      padding-top: 60px;
+      padding-bottom: 40px;
+      overflow: hidden;
+      min-height: 90vw; }
+      .gwg-kassel .start-page-skew-content-module.chat-bot-alt-view .responsive-skew-banner {
+        transform: matrix(0.98, -0.19, 0.19, 0.98, 0, 0);
+        transform-origin: left top;
+        border-radius: 0 0 0 35px;
+        width: 115vw;
+        height: 100%;
+        left: -15vw;
+        top: 0px;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-size: cover;
+        overflow: hidden; }
+        .gwg-kassel .start-page-skew-content-module.chat-bot-alt-view .responsive-skew-banner:before {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          left: 0px;
+          top: 0px;
+          content: ' ';
+          display: block;
+          background-color: rgba(37, 48, 129, 0.65); }
+      .gwg-kassel .start-page-skew-content-module.chat-bot-alt-view:after {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        display: block;
+        content: ' ';
+        background-image: url(../Images/skew-header-image-bg.svg);
+        background-repeat: no-repeat;
+        background-position: left top;
+        z-index: -1;
+        background-size: cover; } }
+  @media screen and (max-width: 767px) {
+    .gwg-kassel .start-page-skew-content-module.chat-bot-alt-view {
+      min-height: 485px; } }
   .gwg-kassel .start-page-skew-content-module .start-push-left-type-1 .normal-text-element-module {
     padding-right: 30px; }
 
@@ -10820,7 +10886,7 @@ html, body {
     display: none !important; } }
 
 @media screen and (max-width: 1799px) {
-  .gwg-kassel .start-page-skew-content-module .start-push-left-type-1 .normal-text-element-module {
+  .gwg-kassel .start-page-skew-content-module .start-push-left-type-1 .normal-text-element-module:not(.chat-bot-alt-content) {
     padding-left: 85px;
     padding-right: 85px; } }
 
@@ -11136,6 +11202,8 @@ html, body {
     .gwg-kassel .basic-entry h6, .gwg-kassel .basic-entry .h6 {
       font-size: 18px;
       line-height: normal; }
+    .gwg-kassel .basic-entry .iconic-group-text h6, .gwg-kassel .basic-entry .iconic-group-text .h6 {
+      font-size: 15px; }
     .gwg-kassel .basic-entry p {
       margin-bottom: 20px;
       font-size: 18px;
@@ -11180,7 +11248,7 @@ html, body {
         display: block;
         visibility: hidden; }
     .gwg-kassel .the-skew-view-part {
-      width: 125%; }
+      width: 115%; }
       .gwg-kassel .the-skew-view-part.d-none.d-xlg-block + .skew-section-main-part {
         padding-top: 80px;
         margin-top: 0px; }
@@ -11197,7 +11265,8 @@ html, body {
       padding-bottom: 110px; }
     .gwg-kassel .skew-section-main-part:not(.type-two) {
       position: relative;
-      margin-top: -120px; }
+      margin-top: 0px;
+      padding-top: 20px; }
       .gwg-kassel .skew-section-main-part:not(.type-two) .normal-text-element-module h1, .gwg-kassel .skew-section-main-part:not(.type-two) .normal-text-element-module .h1, .gwg-kassel .skew-section-main-part:not(.type-two) .normal-text-element-module h2, .gwg-kassel .skew-section-main-part:not(.type-two) .normal-text-element-module .h2, .gwg-kassel .skew-section-main-part:not(.type-two) .normal-text-element-module h3, .gwg-kassel .skew-section-main-part:not(.type-two) .normal-text-element-module .h3, .gwg-kassel .skew-section-main-part:not(.type-two) .normal-text-element-module h4, .gwg-kassel .skew-section-main-part:not(.type-two) .normal-text-element-module .h4, .gwg-kassel .skew-section-main-part:not(.type-two) .normal-text-element-module h5, .gwg-kassel .skew-section-main-part:not(.type-two) .normal-text-element-module .h5, .gwg-kassel .skew-section-main-part:not(.type-two) .normal-text-element-module h6, .gwg-kassel .skew-section-main-part:not(.type-two) .normal-text-element-module .h6 {
         max-width: 75%; }
       .gwg-kassel .skew-section-main-part:not(.type-two) .responsive-skew-absolute-bild {
@@ -11378,7 +11447,7 @@ html, body {
           margin: 0px;
           padding: 0px; }
           .gwg-kassel .overlay-mobile-menu .mobile-nav ul li {
-            margin: 55px 0 0 0;
+            margin: 42px 0 0 0;
             padding: 0 100px 0 40px;
             font-size: 23px;
             line-height: normal;
@@ -11528,6 +11597,8 @@ html, body {
       .gwg-kassel .responsive-overlapped-box-place .overlaped-box > .container {
         padding-left: 0px !important;
         padding-right: 0px !important; }
+    .gwg-kassel .product-listing-module .price-special-info {
+      letter-spacing: 0.1rem; }
     .gwg-kassel .product-listing-module .product-info {
       padding: 30px;
       padding-bottom: 55px;
@@ -11722,7 +11793,7 @@ html, body {
   .gwg-kassel .start-page-skew-content-module {
     background-image: url(../Images/header_blau_mobile.svg);
     padding-bottom: 300px; }
-    .gwg-kassel .start-page-skew-content-module .start-push-left-type-1 .normal-text-element-module {
+    .gwg-kassel .start-page-skew-content-module .start-push-left-type-1 .normal-text-element-module:not(.chat-bot-alt-content) {
       padding-left: 0px;
       padding-right: 0px; }
   .gwg-kassel .site-dropdown .dropdown-menu {

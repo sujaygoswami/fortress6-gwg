@@ -19,7 +19,7 @@
     // start-page-skew-content-module
     .start-page-skew-content-module{
         .start-push-left-type-1{
-            .normal-text-element-module{
+            .normal-text-element-module:not(.chat-bot-alt-content){
                 padding-left: 85px;
                 padding-right: 85px;
             }
@@ -662,6 +662,12 @@
                 line-height: normal;
             }
 
+            .iconic-group-text{
+                h6{
+                    font-size: 15px;
+                }
+            }
+
             p{
                 margin-bottom: 20px;
                 font-size: 18px;
@@ -742,7 +748,7 @@
             }
         }
         .the-skew-view-part{
-            width: 125%;
+            width: 115%;
 
             &.d-none.d-xlg-block{
                 & + .skew-section-main-part{
@@ -772,7 +778,8 @@
         }
         .skew-section-main-part:not(.type-two){
             position: relative;
-            margin-top: -120px;
+            margin-top: 0px;
+            padding-top: 20px;
             .normal-text-element-module{
                 h1, h2, h3, h4, h5, h6{
                     max-width: 75%;
@@ -1112,7 +1119,7 @@
                     padding: 0px;
 
                     li{
-                        margin: 55px 0 0 0;
+                        margin: 42px 0 0 0;
                         padding: 0 100px 0 40px;
                         font-size: 23px;
                         line-height: normal;
@@ -1401,6 +1408,11 @@
 
         // product-listing-module
         .product-listing-module{
+            
+            .price-special-info{
+                letter-spacing: 0.1rem;
+            }
+
             .product-info{
                 padding: 30px;
                 padding-bottom: 55px;
@@ -1800,7 +1812,7 @@
             padding-bottom: 300px;
 
             .start-push-left-type-1{
-                .normal-text-element-module{
+                .normal-text-element-module:not(.chat-bot-alt-content){
                     padding-left: 0px;
                     padding-right: 0px;
                 }

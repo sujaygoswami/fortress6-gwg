@@ -211,6 +211,20 @@ jQuery('.set-back').each(function(){
 });
 
 
+// chat-bot-alt-view
+if ($(window).width() < 1800) {
+  jQuery('.chat-bot-alt-view').each(function(){
+
+    var BG = jQuery(this).find('.chat-bot-alt-img').attr('src');
+    var PARACONTEXT = jQuery(this).find('.chat-bot-alt-content');
+    jQuery(this).find('.responsive-skew-banner').css('background-image', 'url(' + BG + ')');
+    jQuery(PARACONTEXT).detach().insertAfter(this);
+    jQuery(PARACONTEXT).wrap('<div class="container"></div>');
+
+  });
+}
+
+
 
 
 
@@ -389,9 +403,7 @@ jQuery('.global-owl-carousel').each(function(){
 });
 
 
-// section bg
-var FOOTERBGCOLOR = jQuery('.has-section-bg:last-child').attr('data-section-bg');
-jQuery('footer.footer').addClass(FOOTERBGCOLOR);
+
 
 
 // overlaped-box position-right-bottom
@@ -437,6 +449,13 @@ jQuery('.site-accordion').each(function(){
   jQuery(this).find('.accordion-item:first-child .accordion-button').removeClass('collapsed');
   jQuery(this).find('.accordion-item:first-child .accordion-button').attr('aria-expanded', 'true');
   jQuery(this).find('.accordion-item:first-child .accordion-collapse').addClass('show');
+  jQuery(this).find('.frame').addClass('normal-text-element-module basic-entry');
+});
+
+
+// frame
+jQuery('.frame header').each(function(){
+  jQuery(this).append('<span></span>');
 });
 
 
@@ -785,6 +804,9 @@ setTimeout(function() {
 
   jQuery('.upload-title').matchHeight();
 
+
+  jQuery('.news-listing-module .news-main-title').matchHeight();
+
   
 
 
@@ -808,6 +830,11 @@ jQuery('.site-custom-ui-select').click(function(){
   var WIDTH = jQuery(this).width();
   jQuery('.ui-selectmenu-menu ul').width(WIDTH);
 });
+
+
+// section bg
+var FOOTERBGCOLOR = jQuery('.has-section-bg:last-child').attr('data-section-bg');
+jQuery('footer.footer').addClass(FOOTERBGCOLOR);
 
 
 
