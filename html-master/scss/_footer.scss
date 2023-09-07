@@ -1,5 +1,19 @@
 .gwg-kassel{
 
+    .fotter-bottom-logo-content{
+        .main-wrap{
+            padding: 35px 0;
+        }
+
+        @media screen and (max-width: ($lg - 1px)){
+            .main-wrap{
+                img{
+                    width: 255px;
+                }
+            }
+        }
+    }
+
 	footer.footer{
        
         background-image: url(../Images/footer-bg.svg);

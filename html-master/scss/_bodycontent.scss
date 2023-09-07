@@ -1,5 +1,10 @@
 .gwg-kassel {
 
+    // remove box shadow from all element
+    & *{
+        box-shadow: none !important;
+    }
+
 
 
     // basic
@@ -389,6 +394,12 @@
 
     .section-pad-type-1{
         padding-bottom: 105px;
+
+        &.has-reponsive-secton-padding-view{
+            @media screen and (max-width: ($xlg - 1px)){
+                padding-bottom: 40px;
+            }
+        }
     }
 
     .section-pad-type-2{
@@ -442,6 +453,7 @@
     .section-pad-type-14{
         padding-bottom: 50px;
     }
+
 
     .ml-auto{
         margin-left: auto;
@@ -1053,8 +1065,8 @@
         }
 
         &.carousal-view.view-two{
-            max-width: 1690px / 1920px * 100%;
-            margin-left: auto;
+            // max-width: 1690px / 1920px * 100%;
+            // margin-left: auto;
 
             @media screen and (max-width: ($xxl - 1px)) {
                 max-width: 95%;
@@ -1081,7 +1093,9 @@
             .the-card{
                 @include transition(all 0.3s ease 0s);
                 &:hover{
+                    
                     transform: scale(1.05);
+                   
                 }
                 &:before{
                     display: block;
@@ -1109,6 +1123,7 @@
         }
 
 
+
         .the-card{
             border-radius: 20px;
             box-shadow: 3px 3px 20px #00000052;
@@ -1116,9 +1131,12 @@
             overflow: hidden;
             @include transition(all 0.3s ease 0s);
 
-            &:hover{
-                transform: scale(1.05);
+            
 
+            &:hover{
+                @media screen and (min-width: $xlg){
+                    transform: scale(1.05);
+                }
                 .overlay-action-icon{
                     .normal-img{
                         display: none;
@@ -1621,18 +1639,20 @@
                     padding: 0px;
 
                     &.slick-active{
-                        button{
+                        .pagi{
                             background-color: var(--site-primary-color);
                         }
                     }
 
-                    button{
+                    .pagi{
                         width: 20px;
                         height: 20px;
                         border: none;
                         border-radius: 3px;
                         background-color: var(--site-primary-color-light-3);
                         font-size: 0px;
+                        display: inline-block;
+                        cursor: pointer;
                     }
                 }
             }
@@ -2625,7 +2645,9 @@
             @include transition(all 0.3s ease 0s);
 
             &:hover{
-                background-color: var(--site-secondary-color);
+                @media screen and (min-width: $xlg) {
+                    background-color: var(--site-secondary-color);
+                }
             }
         }
 
@@ -3005,6 +3027,7 @@
     // side-by-placed-curve-content
     .side-by-placed-curve-content{
         text-align: center;
+        margin-bottom: 20px;
         .curve-item{
             display: inline-block;
             vertical-align: top;

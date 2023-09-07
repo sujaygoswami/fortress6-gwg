@@ -8637,6 +8637,9 @@ html, body {
         color: var(--site-primary-color);
         text-decoration: none; }
 
+.gwg-kassel * {
+  box-shadow: none !important; }
+
 .gwg-kassel .dp--revoke {
   background-color: var(--site-primary-color) !important; }
 
@@ -8875,6 +8878,9 @@ html, body {
 
 .gwg-kassel .section-pad-type-1 {
   padding-bottom: 105px; }
+  @media screen and (max-width: 1199px) {
+    .gwg-kassel .section-pad-type-1.has-reponsive-secton-padding-view {
+      padding-bottom: 40px; } }
 
 .gwg-kassel .section-pad-type-2 {
   padding: 200px 0; }
@@ -9354,29 +9360,29 @@ html, body {
   right: 45px;
   bottom: 40px; }
 
-.gwg-kassel .overlay-image-with-text-card-module.carousal-view.view-two {
-  max-width: 88.02083%;
-  margin-left: auto; }
-  @media screen and (max-width: 1799px) {
-    .gwg-kassel .overlay-image-with-text-card-module.carousal-view.view-two {
-      max-width: 95%; } }
-  .gwg-kassel .overlay-image-with-text-card-module.carousal-view.view-two .owl-carousel .owl-stage-outer {
-    overflow: inherit; }
-  .gwg-kassel .overlay-image-with-text-card-module.carousal-view.view-two .owl-item {
-    margin-top: 40px; }
-    .gwg-kassel .overlay-image-with-text-card-module.carousal-view.view-two .owl-item:nth-child(2n+1) {
-      margin-top: 0px; }
-  .gwg-kassel .overlay-image-with-text-card-module.carousal-view.view-two .the-card {
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s; }
-    .gwg-kassel .overlay-image-with-text-card-module.carousal-view.view-two .the-card:hover {
-      transform: scale(1.05); }
-    .gwg-kassel .overlay-image-with-text-card-module.carousal-view.view-two .the-card:before {
-      display: block;
-      background: transparent linear-gradient(180deg, #FFFFFF00 0%, #FFFFFFB9 39%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
-      height: 50%;
-      top: inherit;
-      bottom: 0px; }
+@media screen and (max-width: 1799px) {
+  .gwg-kassel .overlay-image-with-text-card-module.carousal-view.view-two {
+    max-width: 95%; } }
+
+.gwg-kassel .overlay-image-with-text-card-module.carousal-view.view-two .owl-carousel .owl-stage-outer {
+  overflow: inherit; }
+
+.gwg-kassel .overlay-image-with-text-card-module.carousal-view.view-two .owl-item {
+  margin-top: 40px; }
+  .gwg-kassel .overlay-image-with-text-card-module.carousal-view.view-two .owl-item:nth-child(2n+1) {
+    margin-top: 0px; }
+
+.gwg-kassel .overlay-image-with-text-card-module.carousal-view.view-two .the-card {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; }
+  .gwg-kassel .overlay-image-with-text-card-module.carousal-view.view-two .the-card:hover {
+    transform: scale(1.05); }
+  .gwg-kassel .overlay-image-with-text-card-module.carousal-view.view-two .the-card:before {
+    display: block;
+    background: transparent linear-gradient(180deg, #FFFFFF00 0%, #FFFFFFB9 39%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+    height: 50%;
+    top: inherit;
+    bottom: 0px; }
 
 .gwg-kassel .overlay-image-with-text-card-module.carousal-view:not(.view-two) {
   max-width: 1210px;
@@ -9394,12 +9400,13 @@ html, body {
   overflow: hidden;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; }
-  .gwg-kassel .overlay-image-with-text-card-module .the-card:hover {
-    transform: scale(1.05); }
-    .gwg-kassel .overlay-image-with-text-card-module .the-card:hover .overlay-action-icon .normal-img {
-      display: none; }
-    .gwg-kassel .overlay-image-with-text-card-module .the-card:hover .overlay-action-icon .hovered-img {
-      display: inline-block; }
+  @media screen and (min-width: 1200px) {
+    .gwg-kassel .overlay-image-with-text-card-module .the-card:hover {
+      transform: scale(1.05); } }
+  .gwg-kassel .overlay-image-with-text-card-module .the-card:hover .overlay-action-icon .normal-img {
+    display: none; }
+  .gwg-kassel .overlay-image-with-text-card-module .the-card:hover .overlay-action-icon .hovered-img {
+    display: inline-block; }
   .gwg-kassel .overlay-image-with-text-card-module .the-card:before {
     position: absolute;
     left: 0px;
@@ -9725,15 +9732,17 @@ html, body {
       display: inline-block;
       margin: 0 16px;
       padding: 0px; }
-      .gwg-kassel .product-detail-module .product-detail-gallery .slick-dots li.slick-active button {
+      .gwg-kassel .product-detail-module .product-detail-gallery .slick-dots li.slick-active .pagi {
         background-color: var(--site-primary-color); }
-      .gwg-kassel .product-detail-module .product-detail-gallery .slick-dots li button {
+      .gwg-kassel .product-detail-module .product-detail-gallery .slick-dots li .pagi {
         width: 20px;
         height: 20px;
         border: none;
         border-radius: 3px;
         background-color: var(--site-primary-color-light-3);
-        font-size: 0px; }
+        font-size: 0px;
+        display: inline-block;
+        cursor: pointer; }
 
 .gwg-kassel .special-content-card {
   padding: 70px 100px;
@@ -10389,8 +10398,9 @@ html, body {
   position: relative;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; }
-  .gwg-kassel .iconic-widget-module .the-card:hover {
-    background-color: var(--site-secondary-color); }
+  @media screen and (min-width: 1200px) {
+    .gwg-kassel .iconic-widget-module .the-card:hover {
+      background-color: var(--site-secondary-color); } }
 
 .gwg-kassel .iconic-widget-module .indication-arrow {
   display: inline-block;
@@ -10650,7 +10660,8 @@ html, body {
     cursor: pointer; }
 
 .gwg-kassel .side-by-placed-curve-content {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 20px; }
   .gwg-kassel .side-by-placed-curve-content .curve-item {
     display: inline-block;
     vertical-align: top;
@@ -10834,6 +10845,13 @@ html, body {
     margin-bottom: 0px; }
   .gwg-kassel .typo3-messages li .alert-message {
     font-size: 14px; }
+
+.gwg-kassel .fotter-bottom-logo-content .main-wrap {
+  padding: 35px 0; }
+
+@media screen and (max-width: 767px) {
+  .gwg-kassel .fotter-bottom-logo-content .main-wrap img {
+    width: 255px; } }
 
 .gwg-kassel footer.footer {
   background-image: url(../Images/footer-bg.svg);
@@ -11139,7 +11157,8 @@ html, body {
     .gwg-kassel .inset-box-padding-type-1.no-responsive-inset {
       padding: 0px; }
     .gwg-kassel .video-banner-module .video-cover.set-back {
-      min-height: 420px; }
+      min-height: 420px;
+      background-position: center top; }
     .gwg-kassel .video-banner-module .video-trigger img {
       max-width: 80px; }
     .gwg-kassel .iconic-widget-module .the-context {
@@ -11239,7 +11258,7 @@ html, body {
           .gwg-kassel .logo-carousel .owl-carousel .owl-nav button.owl-next {
             right: 0px; }
     .gwg-kassel .skew-content-with-image-module .the-skew-img.set-back {
-      background-position: left top;
+      background-position: center top;
       background-size: cover;
       background-repeat: no-repeat;
       min-height: 420px;
@@ -11293,9 +11312,19 @@ html, body {
     .gwg-kassel header.header > .main-wrap {
       height: 84px;
       position: relative;
-      z-index: 1; }
+      z-index: 1;
+      -webkit-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s; }
+      .gwg-kassel header.header > .main-wrap.scrolled-in-mobile {
+        height: 60px; }
+        .gwg-kassel header.header > .main-wrap.scrolled-in-mobile + .overlay-mobile-menu {
+          padding-top: 60px; }
+        .gwg-kassel header.header > .main-wrap.scrolled-in-mobile .header-logo img {
+          max-width: 165px; }
     .gwg-kassel .header-logo img {
-      max-width: 240px; }
+      max-width: 240px;
+      -webkit-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s; }
     .gwg-kassel .iconic-group-text {
       padding-left: 65px; }
       .gwg-kassel .iconic-group-text .the-icon img {
@@ -11322,8 +11351,10 @@ html, body {
           float: left; }
         .gwg-kassel .image-with-overlay-text-carousel .slick-nav-responsive button.slick-next {
           float: right; }
-    .gwg-kassel .image-with-overlay-text-carousel .slick-nav .slick-arrow {
-      display: none !important; }
+    .gwg-kassel .image-with-overlay-text-carousel .slick-nav {
+      margin-top: 10px; }
+      .gwg-kassel .image-with-overlay-text-carousel .slick-nav .slick-arrow {
+        display: none !important; }
     .gwg-kassel .image-with-overlay-text-carousel.has-text-image-both .carousel-content {
       padding-top: 35px;
       padding-bottom: 35px; }
@@ -11410,7 +11441,9 @@ html, body {
       top: 0px;
       background-color: var(--site-light-color-2);
       padding-top: 84px;
-      display: none; }
+      display: none;
+      -webkit-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s; }
       .gwg-kassel .overlay-mobile-menu.animated {
         -webkit-animation-duration: 0.3s;
         animation-duration: 0.6s; }
@@ -11647,7 +11680,7 @@ html, body {
         bottom: 40px; }
         .gwg-kassel .product-detail-module .product-detail-gallery .slick-dots li {
           margin: 0 7.5px; }
-          .gwg-kassel .product-detail-module .product-detail-gallery .slick-dots li button {
+          .gwg-kassel .product-detail-module .product-detail-gallery .slick-dots li .pagi {
             width: 15px;
             height: 15px; }
       .gwg-kassel .product-detail-module .product-detail-gallery .gallery-icon {
@@ -11679,6 +11712,8 @@ html, body {
       padding-top: 50px; }
     .gwg-kassel .global-owl-carousel.responsive-no-nav-dot .owl-nav {
       display: none; }
+    .gwg-kassel .global-owl-carousel.responsive-center .owl-item.center .item .the-card {
+      transform: scale(1.05); }
     .gwg-kassel .overlay-image-with-text-card-module .owl-carousel.responsive-disable-carousel {
       display: block; }
     .gwg-kassel .overlay-image-with-text-card-module.carousal-view.view-two {
@@ -11790,6 +11825,11 @@ html, body {
   .gwg-kassel .the-skew-view-part.type-two {
     height: 14.5vw;
     bottom: -7.4vw; }
+  .gwg-kassel .chat-bot-alt-content {
+    position: relative;
+    z-index: 1;
+    padding-right: 0px !important;
+    padding-top: 30px; }
   .gwg-kassel .start-page-skew-content-module {
     background-image: url(../Images/header_blau_mobile.svg);
     padding-bottom: 300px; }
