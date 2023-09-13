@@ -201,7 +201,14 @@ jQuery('footer.footer').viewportChecker({
 
 
 
+// set back
 
+jQuery('.set-back').each(function(){
+
+ var SETBACK = jQuery(this).find('img').attr('src');
+  jQuery(this).css('background-image', 'url(' + SETBACK + ')');
+
+});
 
 
 // chat-bot-alt-view
@@ -336,13 +343,6 @@ jQuery('.product-detail-gallery .main-carousel').slick({
   dots: true,
   infinite: true,
   arrows: false,
-  adaptiveHeight: false
-});
-jQuery('.product-detail-gallery').each(function(){
-  var FINALHEIGHT = jQuery(this).find('.plan-build').height();
-  jQuery(this).find('.carousel-cell').height(FINALHEIGHT);
-  jQuery(this).find('.carousel-cell:not(.plan-build)').addClass('set-back');
-  jQuery(this).height(FINALHEIGHT);
 });
 
 // overlay image with text card gallery
@@ -384,15 +384,13 @@ jQuery('.global-owl-carousel.type-1:not(.responsive-center)').owlCarousel({
 });
 
 jQuery('.global-owl-carousel.type-1.responsive-center').owlCarousel({
-  loop: false,
+  loop:false,
   margin:30,
   nav:true,
   dots: true,
-  center:true,
+  center:false,
   startPosition: 0,
   mouseDrag: false,
-  dotsEach: false,
-  slideBy: 1,
   responsive:{
     0:{
         items:1,
@@ -539,7 +537,6 @@ jQuery('.filtered-module-on-refresh').each(function(){
 
 
 // dropdown filter
-jQuery('.addresses-module h3').matchHeight();
 jQuery('.dropdown-filter-module').each(function(){
 
   var $grid = jQuery(this).find('.filter-grid').isotope();
@@ -549,6 +546,7 @@ jQuery('.dropdown-filter-module').each(function(){
     var ITEMTEXT = $(this).find('.dropdown-item').html();
     $grid.isotope({ filter: filterValue });
     jQuery(this).parents('.dropdown').find('> button').html(ITEMTEXT);
+    console.log(ITEMTEXT);
   });
 
 });
@@ -764,14 +762,7 @@ jQuery('.side-by-placed-curve-content').parents('.section-row').addClass('d-none
 
 
 
-// set back
 
-jQuery('.set-back').each(function(){
-
-  var SETBACK = jQuery(this).find('img').attr('src');
-   jQuery(this).css('background-image', 'url(' + SETBACK + ')');
- 
- });
 
 
 
@@ -866,8 +857,6 @@ setTimeout(function() {
 
   jQuery('.news-listing-module .news-main-title').matchHeight();
 
-  
-  
   
 
 
