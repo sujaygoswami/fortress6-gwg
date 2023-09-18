@@ -1,3 +1,86 @@
+// form less full hd
+@media screen and (max-width: ($full-hd - 1px)){
+    .gwg-kassel{
+        // start page banner
+        // .start-page-skew-content-module{
+        //     .start-push-left-type-1{
+        //         .normal-text-element-module{
+        //             &.basic-entry{
+
+        //                 ul{
+        //                     li{
+        //                         padding-left: 37px;
+        //                         &:before{
+        //                             width: 20px;
+        //                             height: 15px;
+        //                             background-size: 20px;
+        //                         }
+        //                     }
+        //                 }
+            
+        //                 li{
+        //                     font-size: 18px;
+        //                     line-height: 28px;
+        //                 }
+            
+        //                 h1{
+        //                     font-size: 34px;
+        //                     line-height: 44px;
+        //                     margin-bottom: 45px;
+        //                 }
+            
+        //                 h2{
+        //                     font-size: 26px;
+        //                     line-height: 34px;
+        //                     margin-bottom: 45px;
+        //                 }
+            
+        //                 h3{
+        //                     font-size: 24px;
+        //                     line-height: 32px;
+        //                     margin-bottom: 45px;
+        //                 }
+            
+        //                 h4{
+        //                     font-size: 20px;
+        //                     line-height: 28px;
+        //                     margin-bottom: 45px;
+        //                 }
+            
+        //                 h5{
+        //                     font-size: 18px;
+        //                     line-height: 26px;
+        //                     margin-bottom: 45px;
+        //                 }
+            
+            
+        //                 h6{
+        //                     font-size: 18px;
+        //                     line-height: normal;
+        //                 }
+            
+        //                 .iconic-group-text{
+        //                     h6{
+        //                         font-size: 15px;
+        //                     }
+        //                 }
+            
+        //                 p{
+        //                     margin-bottom: 20px;
+        //                     font-size: 18px;
+        //                     line-height: 28px;
+        //                 }
+            
+        //                 div.reveal-para{
+        //                     margin-bottom: 20px;
+        //                 }
+        //             }
+        //         }
+        //     }
+        // }
+    }
+}
+
 // to min xlg
 
 
@@ -945,7 +1028,7 @@
                     right: 0px;
                     top: 0px;
                     background: white;
-                    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.6) 0%);
+                    background: transparent linear-gradient(180deg, #FFFFFFCC 0%, #FFFFFF5C 82%, #FFFFFF00 100%) 0% 0% no-repeat padding-box;
                     z-index: 1;
                     pointer-events: none;
                     display: block;

@@ -1448,6 +1448,11 @@
                 border-bottom: 2px solid var(--site-colored-border-2);
                 padding: 22px 0;
 
+                @media screen and (min-width: $lg){
+                    min-height: 120px;
+                }
+                
+
                 &:last-child{
                     border-bottom: none;
                 }
@@ -3183,11 +3188,17 @@
 
     .chat-bot-alt-content{
         max-width: 90%;
+        position: relative;
+        z-index: 1;
 
         @media screen and (max-width: ($xxl - 1px)){
             max-width: inherit;
-            padding-top: 55px;
             padding-bottom: 25px;
+            padding-top: 55px;
+        }
+
+        @media screen and (max-width: ($xxl - 1px)) and (min-width: $xlg){
+            padding-top: 0px !important;
         }
     }
 

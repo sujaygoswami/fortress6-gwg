@@ -215,14 +215,17 @@ jQuery('.chat-bot-alt-view').each(function(){
     jQuery(this).find('.responsive-skew-banner').css('background-image', 'url(' + BG + ')');
   }
 
-  if (windowSize < 1800 && windowSize >= 768) {
+  if (windowSize < 1200 && windowSize >= 768) {
     jQuery(PARACONTEXT).detach().insertAfter(this);
     jQuery(PARACONTEXT).wrap('<div class="container"></div>');
   }
 
+  // if (windowSize < 1800 && windowSize >= 1200) {
+  //   jQuery(PARACONTEXT).detach().insertAfter(ICONICGROUPTEXT);
+  // }
+
   if (windowSize < 768) {
     jQuery(PARACONTEXT).detach().insertAfter(ICONICGROUPTEXT);
-
   }
 
 
