@@ -62,9 +62,6 @@ var checkMobile = function(){
 checkMobile();
 
 
-// default frame
-jQuery('.frame-default, .frame-type-text').addClass('basic-entry');
-
 
 // skew content first view
 if ($(window).width() >= 1200) {
