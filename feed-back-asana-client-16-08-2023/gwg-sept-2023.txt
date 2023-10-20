@@ -1,0 +1,358 @@
+==================
+General (Allgemein)
+==================
+
+1. https://app.asana.com/0/1205238400590836/1205415864264081
+mobile: slider element
+
+Hi aftab@bytebuilders.de, on mobile the slider element highlights the wrong box. It should focus on the active box an make it slightly bigger. the boxes that are out of focus should remain smaller. Further the spacing to the left and right sometimes looks wrong, depending on wich box is zoomed on
+
+task type: design 
+time: cr
+status: DONE [2hrs]
+
+--------
+
+2. https://app.asana.com/0/1205238400590836/1205420707729750
+Remove box-shadow on every page
+
+Hi aftab@bytebuilders.de, we decided to remove all box-shadow from the Site, to have a cleaner look.
+
+Costa BanerjeeYesterday at 16:38
+@Dominik Viereck @Svenja Hübner
+
+Meint ihr alle Seiten, wo ein Element dieser Art verwendet wird oder alle Elemente auf allen Seiten, wo wir einen Box-Shadow verwenden?
+DV
+Dominik ViereckYesterday at 17:16
+In dem Falle alle Elemente auf allen Seiten die einen Box Shadow verwenden
+
+
+task type: design 
+time: cr
+status: done [15min]
+
+--------
+
+3. https://app.asana.com/0/1205238400590836/1205420715364314
+mobile: center header image
+
+to avoid such image sections, center the header image
+
+
+task type: design 
+time: cr
+status: done [10min]
+
+--------
+
+4. https://app.asana.com/0/1205238400590836/1205421241595332
+Global: Remove chat icon
+
+
+task type: design 
+time: cr
+status: done [5min]
+
+--------
+
+5. https://app.asana.com/0/1205238400590836/1205420715364350
+mobile: navigation/menu smaller when scrolling down
+
+white bar 60px
+logo 165px width
+burger button remains as it is
+
+
+task type: design 
+time: cr
+status: done [1hr]
+
+--------
+
+6. https://app.asana.com/0/1205238400590836/1205431069312075
+Carousel: global link arrow
+
+ifno link is set, please hide the arrow
+
+
+task type: design 
+time: cr
+status: done [20min]
+
+--------
+
+7. https://app.asana.com/0/1205238400590836/1205439748069666
+
+
+task type: design 
+time: cr
+status: done [10min]
+
+
+
+
+==================
+Navi
+==================
+1. https://app.asana.com/0/1205238400590836/1205421241595334
+
+hi aftab@bytebuilders.de we need to change the Dropdownoptions to the "regionaler Zusatz" just like the screenshot from the old site. I already checked, that we have the information present in the backend.
+
+
+task type: Design
+time: CR 
+status: DONE [2hrs]
+
+
+==================
+Footer
+==================
+
+1. https://app.asana.com/0/1205238400590836/1205439748566252
+
+
+task type: development
+time: CR 
+status: done [10min]
+
+
+==================
+Home
+==================
+
+1. https://app.asana.com/0/1205238400590836/1205420707729748
+responsive: insert image in blue area if the screen is smaller than 768px and put the text over the image
+
+task type: Design
+time: CR big
+status: done [1hr]
+
+
+==================
+Wohnungssuche
+==================
+
+1. https://app.asana.com/0/1205238400590836/1205415864264059
+Detail: Beschreibung
+Hi aftab@bytebuilders.de the customer wants to change the order on Desktop and mobile. Please put the "Beschreibung" below the "Kosten" and "Details".
+
+task type: Development
+time: cr
+status: done [20min]
+
+--------
+
+2. https://app.asana.com/0/1205238400590836/1205421241595348
+mobile & tablet: hide section
+
+hi aftab@bytebuilders.de, the following section with über uns, quartiere and gwg in kassel can be hidden in mobile and responsive
+
+task type: Design
+time: bug
+status: Done[15min]
+
+==================
+Wohnung Detailseite
+==================
+
+1. https://app.asana.com/0/1205238400590836/1205439748566228
+don't crop the floor plan
+
+task type: Design and development
+time: CR 
+status: done [1hr]
+
+==================
+Kundenservice
+==================
+
+1. https://app.asana.com/0/1205238400590836/1205415864264061
+
+Filter cannot be deselected
+
+task type: Development
+time: cr 
+status:  done[15min] 
+
+
+------
+
+
+2. https://app.asana.com/0/1205238400590836/1205238402471660
+Image Kärtchen max. 540 x 460px -> maintain proportions at higher resolution / green arrow on hover
+
+task type: Design development
+time:  cr 
+status: Done [1hr]
+
+==================
+Ansprechpartner
+==================
+
+1. https://app.asana.com/0/1205238400590836/1205439748069690
+map: tool tip without linebreak
+
+task type: design
+time: CR 
+status: Done [15 min]
+
+==================
+Aktuelles
+==================
+
+1. https://app.asana.com/0/1205238400590836/1205420715364320/f
+responsive: reduce padding below the first news section to 40
+
+
+task type: design
+time: cr small
+status: Done [15 min]
+
+--------
+
+2. https://app.asana.com/0/1205238400590836/1205420715364302/f
+responsive: reduce margin Bubbles to 10 (news and home)
+
+task type: design
+time: cr small
+status: Done [10 min]
+
+----------
+
+3. https://app.asana.com/0/1205238400590836/1205439748069684
+Leave more space between the rows &  leave space for a second line at h3
+
+
+task type: design and development
+time: cr
+status: Done [1hr]
+
+----
+
+4. https://app.asana.com/0/1205238400590836/1205266072432480
+Adjust the height of the news Kärtchen (2nd line)
+
+
+
+time [20min]
+task status: done
+
+==================
+Über uns
+==================
+
+1. https://app.asana.com/0/1205238400590836/1205415864264068
+Tile mouseover
+
+Hi aftab@bytebuilders.de, the mouseover for the tiles is a little bugged on mobile. Sometimes the tile gehts highlighted, sometimes not. For usability reasons, we'd like to drop the mouseover for mobile and tablet
+
+task type: 
+time: CR small
+status:  Done [10 min]
+
+-----
+
+2. https://app.asana.com/0/1205238400590836/1205439748566240
+Icons hover green & more space above the line
+
+task type: design and development
+time: cr
+status:  Done [1hr]
+
+==================
+Stadtteilfreffpunkte
+==================
+1. https://app.asana.com/0/1205238400590836/1205238402471655
+Slider bubbles too small: same size as Home and News (30x30 px)
+http://typo3-composer.p645654.webspaceconfig.de/wohnungssuche/stadtteiltreffpunkte
+
+time: 10min
+
+==================
+FROM THE DAY AFTER TOMORROW To Do
+==================
+1. https://app.asana.com/0/1205238400590836/1205393720377165
+
+change the Icon "Quartiere" to "Stadtteiltreffpunkte"
+
+new Icon attached, please link to the page "Stadtteiltreffpunkte"
+
+task type:  design development
+time: cr
+status: done [20min]
+
+==================
+Karriere / Asubildung
+==================
+
+1. https://app.asana.com/0/1205238400590836/1205420715364336
+Bewerbung: name upload fields correctly
+
+Layout attached
+
+it should be "Anschreiben und Lebenslauf" and "Arbeitszeugnisse"
+
+
+task type: developement
+time: cr small
+status: done [10min]
+
+------
+
+2. https://app.asana.com/0/1205238400590836/1205432828417163
+hier nur Zeugnisse, nicht Arbeitszeugnisse
+
+
+task type: developement
+time: cr 
+status: done [15min]
+
+==================
+no tab
+==================
+
+http://typo3-composer.p645654.webspaceconfig.de/kundenservice/ansprechpartner
+1) 
+On the left in the mouse over there should not be the "Team Nord", but the area- e.g. "Harleshausen"
+ 
+2)
+Here in the dropdown it should not show the Region, but the name of the areas:
+Rothenditmold
+Nord-Holland
+Philippinenhof-Warteberg
+Also, here one record might show up for multiple records, therefore in BE we need a multiselect.
+
+
+Time spend: 4 hours [Done]
+
+==================
+new after live migration
+==================
+
+1) 
+https://app.asana.com/0/1205238400590836/1205497080091552
+
+task type: design
+time: cr
+status: done [15min]
+-------------------
+2) 
+https://app.asana.com/0/1205238400590836/1205496823324772
+
+task type: design
+time: cr
+status: done [15min]
+-------------------
+3) 
+https://app.asana.com/0/1205238400590836/1205496823324780
+
+task type: design
+time: cr
+status: done [1hr]
+
+------------
+4)
+https://app.asana.com/0/1205238400590836/1205476400518988
+task type: development
+time: cr
+status: done [14hr]

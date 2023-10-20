@@ -1,0 +1,767 @@
+https://app.asana.com/0/1205238400590836/1205266069990546
+[client asana]
+
+
+https://app.asana.com/0/1198978231362997/1205283232591542
+
+[ours asana]
+
+
+https://xd.adobe.com/view/74c485c8-ab7f-482c-8679-5168fada3f2a-2197/screen/4335af0e-a177-4a5d-b725-2f3b098941d4/
+
+
+GWG website adjustments
+
+General (Allgemein)
+1. https://app.asana.com/0/1205238400590836/1205238400590855
+Favicon distorted, use new svg
+- Use gwg_favicon.svg
+
+task type: Design
+time: CR small
+status: Done [5 min]
+
+--------------
+
+2. https://app.asana.com/0/1205238400590836/1205238400590839
+Proportion elements - all a bit big
+- With Full HD everything fits well, with higher resolution the elements become too huge
+keeping the correct proportions.
+
+task type: Design
+time: 
+status:  please give some reference (screenshot or link and little more explanation)
+
+--------------
+
+
+
+
+
+
+
+3. https://app.asana.com/0/1205238400590836/1205238400590849
+Make the scroll down arrow visible
+- The arrow that signals that you should scroll down must be visible in all resolutions and should move/get a subtle effect
+
+see animate css → pulse
+https://animate.style/
+
+task type: Design
+time: CR big
+status:  Done [2hrs], please use small content to show the full area visible on first viewport
+
+--------------
+
+4. https://app.asana.com/0/1205238400590836/1205238400590851
+Cookie hint: Color circle in blue
+
+task type: Development
+time: CR small
+status: Done [5 min]
+
+--------------
+
+
+5. https://app.asana.com/0/1205238400590836/1205238400590853
+Scroll to top button green on hover
+- If the scroll to top button goes over the blue footer, invert (white button, blue arrow)
+
+task type: Design
+time: CR big [1hr]
+status:  DONE [30 min]
+
+--------------
+
+6. https://app.asana.com/0/1205238400590836/1205238400590859
+Link style in body text: green and underline on hover
+- ref: FAQ_Link.png
+
+task type: Design
+time: CR small
+status: Done [5 min]
+
+--------------
+
+
+
+
+
+
+
+
+7. https://app.asana.com/0/1205238400590836/1205247522751778
+Invert contact buttons on the right edge of the screen on hover (icon white, button blue)
+
+task type: Design and development
+time: CR big
+status: DONE [30min]
+
+--------------
+
+8. https://app.asana.com/0/1205238400590836/1205238402471689
+Change images box shadow to #00000052
+
+task type: Design
+time: CR small
+status: DONE [5 min]
+
+--------------
+
+
+Typography (Typografie)
+
+1. https://app.asana.com/0/1205238400590836/1205238402471615
+H2 font-weight:300
+
+task type: Design
+time: CR small
+status: DONE [5 min]
+
+--------------
+
+2. https://app.asana.com/0/1205238400590836/1205246414279779
+Body text font-weight 300
+
+task type: Design
+time: CR small
+status: DONE [5 min]
+
+--------------
+
+
+
+
+
+
+3. https://app.asana.com/0/1205238400590836/1205266069990540
+Customize H6 font
+- Inter use uppercase
+- no letter spacing
+- font size 25px remains
+ref: Typo_h6.png
+
+task type: Design
+time: CR small
+status: DONE [5 min]
+
+--------------
+
+
+4. https://app.asana.com/0/1205238400590836/1205238402471759
+mobile h6 18px
+
+task type: Design
+time: CR small
+status: DONE [5 min]
+
+--------------
+
+
+Navi
+1. https://app.asana.com/0/1205238400590836/1205238402471729
+Replace logo
+ref: gwg_logo.svg
+
+task type: Development
+time: CR small
+status: DONE [5 min]
+
+--------------
+
+
+
+
+2. https://app.asana.com/0/1205238400590836/1205238402471619
+Remove box shadow from navbar
+
+task type: Design
+time: Bug
+status: DONE
+
+--------------
+
+3. https://app.asana.com/0/1205238400590836/1205238402471621
+Menu items letter-spacing: 0.19rem
+
+task type: Design
+time: CR small
+status: DONE [5 min]
+
+--------------
+
+4. https://app.asana.com/0/1205238400590836/1205238402471623
+Insert submenu
+- Submenu: Typography as in the navigation system, rounded box and in light green #EEFBF3
+ref: 230815_Wohnungssuche_submenu.png
+
+task type: Design and development
+time: CR big
+status: DONE [2hrs]
+
+--------------
+
+
+5. https://app.asana.com/0/1205238400590836/1205238402471755
+Mobile: Set navigation points right-aligned and color green after clicking
+
+
+task type: Design
+time: CR small
+status: DONE [15min]
+
+--------------
+
+6. https://app.asana.com/0/1205238400590836/1205266069990546
+Color menu items green on hover
+
+task type: Design
+time: CR small
+status: DONE [5 min]
+
+
+
+
+
+
+
+
+Footer
+
+1. https://app.asana.com/0/1205238400590836/1205238402471605
+Footer blue rectangle: use svg
+ref: attachment
+
+task type: Design
+time: Bug
+status:  DONE
+
+--------------
+
+2. https://app.asana.com/0/1205238400590836/1205238402471607
+Typografie Footer Desktop
+ref: attachment
+
+task type: Design
+time: CR small
+status: DONE [no time as done with another point]
+
+--------------
+
+3.  https://app.asana.com/0/1205238400590836/1205238402471611
+Social Icons Footer: turn green on hover
+
+task type: Design and development
+time: CR Big
+status: DONE [15 min]
+
+--------------
+
+4. https://app.asana.com/0/1205238400590836/1205238402471741
+Use mobile svg
+ref: attachment
+
+task type: Design
+time: CR small
+status: DONE [5 min]
+
+--------------
+
+
+
+
+
+5. https://app.asana.com/0/1205238400590836/1205266069990534
+Mobile: Footer anpassen gemäß neuer Vorlage (Dropdown)
+ref: attachment
+
+task type: Design and development
+time: CR big
+status: done [1hrs]
+
+
+Sidebar
+
+1. https://app.asana.com/0/1205238400590836/1205238402471625
+Color the hover icons green (SOS, phone, mail) and zoom in slightly
+
+task type: Design and development
+time: CR big
+status: messing up with another point
+
+
+Home
+1. https://app.asana.com/0/1205238400590836/1205238402471631
+Header blue, oblique rectangle please use svg
+ref: attachment
+
+task type: Design
+time: bug
+status: done
+
+
+
+
+--------------
+
+2. https://app.asana.com/0/1205238400590836/1205282387418042
+Color text on blue header white
+
+task type: Design and development
+time: CR small
+status: done [1hrs]
+
+--------------
+
+
+
+3. https://app.asana.com/0/1205238400590836/1205238402471633
+News Slider: Hover over "READ MORE" and color the arrow both green
+
+task type: Design
+time: CR small
+status: done [5min]
+
+--------------
+
+4. https://app.asana.com/0/1205238400590836/1205238402471635
+Slider News: Color bubbles with numbers green on hover -> do not color inactive bbbles purple but #C8CBDF
+
+task type: Design
+time: CR small
+status: done [10min]
+
+--------------
+
+5. https://app.asana.com/0/1205238400590836/1205238402471637
+Zoom in on 5 cards (advice, looking for an apartment...) with hover (as with customer service) and color the arrow icon green
+
+task type: Design
+time: CR small
+status: done [30min]
+
+--------------
+
+
+6.https://app.asana.com/0/1205238400590836/1205238402471735
+Mobile: blue rectangle too big, use svg
+
+task type: Design
+time: CR small
+status: done [5min]
+
+--------------
+
+7.https://app.asana.com/0/1205238400590836/1205238402471749
+Mobile: Bubbles under Latest News square
+
+task type: Design and development
+time: Bug
+status: done
+
+--------------
+
+8. https://app.asana.com/0/1205238400590836/1205238402471787
+Mobile: News right left horizontal scroll arrows in the picture?
+
+task type: Design
+time: CR big
+status: done [1hr]
+
+
+
+
+Wohnungssuche
+
+1. https://app.asana.com/0/1205238400590836/1205238402471639
+Colour SEARCH button green on hover
+
+task type: Design
+time: CR small
+status: done [5 min]
+
+--------------
+
+
+2. https://app.asana.com/0/1205238400590836/1205238402471641
+Card apartment advertisements: Contact person (blue) out
+
+task type: Development
+time: CR small
+status: done [5min]
+
+--------------
+
+3. https://app.asana.com/0/1205238400590836/1205238402471643
+Change the typography of the “Kaltmite zzgl. NK” Kärtchen for the apartment advertisements
+- primary font regular
+upppercase 
+font-size: 16px; 
+letter-spacing: 0.2rem;
+task type: Design
+time: CR small
+status: done [5min]
+
+--------------
+
+
+4. https://app.asana.com/0/1205238400590836/1205238402471645
+Kärtchen Wohnungsinserate: Color the arrow green on the hover
+
+task type: Design + Development
+time: CR small
+status: done [15min]
+
+--------------
+
+
+
+Wohnung Detailseite
+1. https://app.asana.com/0/1205238400590836/1205238402471651
+Slider with pictures of the apartment: not active bubbles not white but #C8CBDF
+
+
+task type: Design
+time: CR small
+status: done [5 min]
+
+--------------
+
+2. https://app.asana.com/0/1205238400590836/1205238402471653
+Remove Icon Floor Plan
+
+task type: Design
+time: CR small
+status: done [5 min]
+
+--------------
+
+
+
+
+
+
+
+
+
+
+Stadtteilfreffpunkte
+
+1. https://app.asana.com/0/1205238400590836/1205238402471655
+Slider bubbles too small: same size as Home and News (30x30 px)
+http://typo3-composer.p645654.webspaceconfig.de/wohnungssuche/stadtteiltreffpunkte
+task type: Design
+time: CR small
+status: done [5 min]
+
+--------------
+
+2. https://app.asana.com/0/1205238400590836/1205238402471657
+Optimize dashed line behind header image
+- The position and color of the dashed line behind the header image only sits well at 1920x1080 px, shifted and gray at higher resolutions
+ref: Stadtteiltreffpunkte.png
+
+task type: Design
+time: CR big
+status: done [1hr]
+
+--------------
+
+3. https://app.asana.com/0/1205238400590836/1205266069990550
+Line under Ansprechpartner 700px long
+
+task type: Design
+time: bug
+status:  done
+
+Kundenservice
+
+
+1. https://app.asana.com/0/1205238400590836/1205238402471660
+Image Kärtchen max. 540 x 460px -> maintain proportions at higher resolution / green arrow on hover
+
+task type: Design
+time:  cr small green arrow
+status: the images are already proportioned, it is actually depends upon resolution as there is no centre container and it is a screen attached component
+
+--------------
+
+2. https://app.asana.com/0/1205238400590836/1205282390028724
+white gradient over pictures/Kärtchen not so strong
+
+task type: Design
+time: bug
+status:  done
+
+--------------
+
+FAQ
+
+1. https://app.asana.com/0/1205238400590836/1205238402471765
+Mobile: Optimize filter in FAQ/line break
+ref: faq-filter.png
+
+task type: Design
+time: cr small
+status: done [5 min]
+
+--------------
+
+2. https://app.asana.com/0/1205238400590836/1205246414279783
+Question mark FAQ "jumping" at lower resolution than Full HD
+ref: FAQ.png
+
+
+task type: Development
+time: bug
+status: done
+
+
+--------------
+
+
+
+3. https://app.asana.com/0/1205238400590836/1205238402471777
+Mobile: accordion numbers from 10 too close to the question, more distance
+
+task type: Design
+time: CR small
+status: done [5 min]
+
+--------------
+
+4. https://app.asana.com/0/1205238400590836/1205266072432476
+Mobile: arrow accordion level with the first line/question
+
+task type: Design
+time: CR small
+status: done [5min]
+
+--------------
+
+5. https://app.asana.com/0/1205238400590836/1205290758550846
+see customer service 1. FAQ question word "website"
+
+Link to internal page does not work
+
+http://typo3-composer.p645654.webspaceconfig.de/kundenservice
+
+task type: Development
+time: bug
+status: done
+
+Ansprechpartner
+
+1. https://app.asana.com/0/1205238400590836/1205238402471670
+Rename filter "ALL" to "alle Regionen"
+- If nothing is selected yet Button with text "Select region"
+
+task type: Development
+time: CR 
+status: Done [10 min]
+
+--------------
+
+2. https://app.asana.com/0/1205238400590836/1205238402471781
+Mobile: Bad Wilhelmshöhe line too long / define a fixed length
+ref: linie.png
+
+task type: design
+time: CR small
+status: Done [10 min]
+
+--------------
+
+Aktuelles
+1. https://app.asana.com/0/1205238400590836/1205238402471683
+Add "All" filter
+task type: Development
+time: CR 
+status: Done [10 min]
+
+--------------
+
+
+
+
+
+
+2. https://app.asana.com/0/1205238400590836/1205238402471685
+Turn arrow green on hover
+
+task type: design
+time: CR small
+status: Done [15 min]
+
+--------------
+
+3. https://app.asana.com/0/1205238400590836/1205282390028732
+White gradient over the header images too strong: should only go to the middle of the image
+
+task type: design
+time: CR small
+status: Done [5 min]
+
+--------------
+
+4. https://app.asana.com/0/1205238400590836/1205238402471699
+Adjust news h6 and h3 margin
+- div h6 margin 10 , div h3 margin 30
+
+task type: design
+time: CR small
+status: Done [10 min]
+
+--------------
+
+5. https://app.asana.com/0/1205238400590836/1205266072432480
+Adjust the height of the news Kärtchen (2nd line)
+
+task type: design
+time: CR small
+status: Done [15 min]
+
+--------------
+
+6. https://app.asana.com/0/1205238400590836/1205238402471691
+Light blue slant is clipped at higher resolution than Full HD / white flash
+ref: Aktuelles.png
+
+task type: design
+time: CR big
+status: Done [1hr]
+
+--------------
+
+7. https://app.asana.com/0/1205238400590836/1205238402471708
+Reporting: optimize white slopes
+- also here speed cameras: if necessary all colored areas as background-size: cover; ?
+ref: Blitzer_schraegen.png
+
+task type: design
+time: CR big
+status: Done [1hr]
+
+--------------
+
+8. https://app.asana.com/0/1205238400590836/1205290758550832
+ "Load more" does not work properly - the articles are then displayed twice
+
+task type: development
+time: bug
+status:  Done
+
+--------------
+
+9. https://app.asana.com/0/1205238400590836/1205290758550836
+Optimize styles in the article with image/text elements
+
+task type: development and design
+time: cr big
+status: Done [15 min]
+
+--------------
+
+Über uns
+1. https://app.asana.com/0/1205238400590836/1205238402471704
+Arrows slider "partner" on hover green
+
+task type: design
+time: CR small
+status: Done [10 min]
+
+--------------
+
+
+
+
+2. https://app.asana.com/0/12052384005908	36/1205282387418046
+GWG in Kassel - check/adjust graphic
+ref: gwg_kassel.png
+
+task type: design
+time: bug
+status:  not found any issue like the screenshot
+
+--------------
+
+
+
+Karriere
+
+1. https://app.asana.com/0/1205238400590836/1205238402471715
+Don't indent vacancies (Karriere und Ausbildung)
+ref: karriere.png
+
+task type: design
+time: CR big
+status: the upper part is fluid container and the bottom part is centre container that’s why it looks like it, do you want to make all content type fluid, for 4k screens, or what to do here.
+
+--------------
+
+2. https://app.asana.com/0/1205238400590836/1205238402471793
+Mobile: Image header too small (also for Ausbildung) currently 300px should be 420px high
+
+task type: design
+time: CR small
+status: done [15 min]
+
+--------------
+
+3. https://app.asana.com/0/1205238400590836/1205238402471797
+Mobile: Stellenangebote "Accordions" font size 16px
+
+task type: design
+time: CR small
+status: done [5 min]
+
+--------------
+
+4. https://app.asana.com/0/1205238400590836/1205266072432484
+Jobformular (Job form) optimizations
+
+- if mandatory fields are not filled out, then red text above the send button "Please fill out mandatory fields"
+- If file uploaded successfully, color box green
+ref: 230815_Bewerbung_Fehlermeldund_Datenschutz.png
+
+task type: design and development
+time: CR big
+status: done [2.30hrs]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FROM THE DAY AFTER TOMORROW To Do
+
+1. https://app.asana.com/0/1205238400590836/1205300476426927
+
+task type: development
+time: CR small
+status: done [10min]
+
+
+
+
+
+
