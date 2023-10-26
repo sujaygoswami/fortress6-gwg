@@ -63,7 +63,7 @@ checkMobile();
 
 
 // default frame
-jQuery('.frame-type-text').addClass('basic-entry');
+jQuery('.frame-default, .frame-type-text').addClass('basic-entry');
 
 
 // skew content first view
