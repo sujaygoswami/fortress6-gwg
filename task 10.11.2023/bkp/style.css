@@ -10628,11 +10628,6 @@ html, body {
     .gwg-kassel .ui-selectmenu-menu > ul > li:first-child {
       margin-top: 0px; }
 
-.gwg-kassel .site-form-module a {
-  text-decoration: underline; }
-  .gwg-kassel .site-form-module a:hover {
-    color: var(--site-secondary-color); }
-
 .gwg-kassel .site-form-module .field-info.error {
   color: var(--site-danger-color); }
 

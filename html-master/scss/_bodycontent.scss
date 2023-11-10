@@ -2981,6 +2981,13 @@
 
     // site-form-module global
     .site-form-module{
+        a{
+            text-decoration: underline;
+
+            &:hover{
+                color: var(--site-secondary-color);
+            }
+        }
         .field-info{
             &.error{
                 color: var(--site-danger-color);
